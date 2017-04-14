@@ -13,8 +13,9 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
+        android:backgroundTint="#2ca5f5"
         android:background="@drawable/rounded_corners"
-        android:backgroundTint="#2Ca5F5">
+        android:layout_weight="1">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -22,6 +23,195 @@
             android:id="@+id/imageView"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/Weight" />
+            android:src="@drawable/weight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="30%"
+            android:id="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="40dp"
+            android:paddingRight="5dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Weight lifting"
+            android:id="@+id/textView2"
+            android:paddingLeft="5dp"
+            android:paddingBottom="15dp"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/textView"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Do you even lift?"
+            android:id="@+id/textView3"
+            android:paddingLeft="5dp"
+            android:textSize="18dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="10 sets"
+            android:id="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="right"
+            android:padding="5dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:textColor="#FFFFFF" />
+
     </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#916bcd"
+        android:background="@drawable/rounded_corners"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/lotus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="15%"
+            android:id="@+id/textView5"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="40dp"
+            android:paddingRight="5dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Yoga"
+            android:id="@+id/textView6"
+            android:paddingLeft="5dp"
+            android:paddingBottom="15dp"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/textView5"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Namasta"
+            android:id="@+id/textView7"
+            android:paddingLeft="5dp"
+            android:textSize="18dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1 hour"
+            android:id="@+id/textView8"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="right"
+            android:padding="5dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#52ad56"
+        android:background="@drawable/rounded_corners"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/heart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="22%"
+            android:id="@+id/textView9"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="40dp"
+            android:paddingRight="5dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cadio"
+            android:id="@+id/textView10"
+            android:paddingLeft="5dp"
+            android:paddingBottom="15dp"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/textView9"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Run like crazy"
+            android:id="@+id/textView11"
+            android:paddingLeft="5dp"
+            android:textSize="18dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="5 miles"
+            android:id="@+id/textView12"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="right"
+            android:padding="5dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
 </LinearLayout>
